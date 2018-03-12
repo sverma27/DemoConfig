@@ -1,0 +1,379 @@
+{
+  "CONFIG_URL": "https://s3.amazonaws.com/pnsdigital.com/demonewsreader/config.json",
+  "BASE_URL": "http://appfeeds.grahamdigital.com/KSATUAT/",
+  "APPLICATION_GROUP": "group.PNSDigital.TrailblazerEnterprise",
+  "WIDGET_RELATIVE_URL": "Widget.json",
+  "WEATHER": {
+    "APP_LINK": "PNSDigitalKSATWeather://",
+    "LINK_IOS": "itms-apps://itunes.apple.com/us/app/your-weather-authority-for/id706099804",
+    "LINK_ANDROID": "com.pnsdigital.weather.ksat"
+  },
+  "WEB": {
+    "URL": "http://ksat.gmg-web.lakana-uat.com/"
+  },
+  "MENU_LEFT": [
+    {
+      "screen": "topStories",
+      "title": "Top Stories",
+      "AD_TAG": "/15466288/TEST/App/Newsreader",
+      "url": "Top%20Stories.json",
+      "secondaryUrl": "Top%20Stories",
+      "header": {
+        "type": "html",
+        "url": "http://gmg-elections.s3.amazonaws.com/dev/embed/ksat.html"
+      }
+    },
+    {
+      "screen": "DAIVideo",
+      "title": "Watch Live",
+      "AD_TAG": "/15466288/WKMG/Livestream",
+      "assetKey" : "yBZZpy3-TOir4BDyMWZ2hQ",
+      "hlsURL": "https://pubads.g.doubleclick.net/ssai/event/yBZZpy3-TOir4BDyMWZ2hQ/master.m3u8"
+    },
+    {
+      "screen": "HLSVideo",
+      "title": "Test HLS",
+      "url": "https://tungsten.aaplimg.com/VOD/bipbop_adv_example_hevc/master.m3u8"
+    },
+    {
+      "screen": "News",
+      "title": "News",
+      "AD_TAG": "/15466288/TEST/App/Newsreader/News",
+      "section": [
+        {
+          "screen": "webview",
+          "subtitle": "Select Your Race",
+          "url": "http://gmg-elections.s3.amazonaws.com/ksat_mobile/index.html"
+        },
+        {
+          "screen": "HLSVideo",
+          "subtitle": "UpLynk LiveStream",
+          "url": "http://content.uplynk.com/channel/aeed2b5b97494129ad22b446d6aa0ce4.m3u8?ad=graham_test"
+        },
+        {
+          "subtitle": "Latest Headlines",
+          "url": "News.json",
+          "secondaryUrl": "News",
+          "header": {
+            "type": "html",
+            "url": "http://t.gmg.io/header/test_header.html"
+          }
+        },
+        {
+          "subtitle": "Local News",
+          "url": "Local.json",
+          "secondaryUrl": "Local"
+        },
+        {
+          "subtitle": "Defenders",
+          "url": "Defenders.json",
+          "secondaryUrl": "Defenders"
+        },
+        {
+          "subtitle": "Crime Fighters",
+          "url": "Crime%20Fighters.json",
+          "secondaryUrl": "Crime%20Fighters"
+        },
+        {
+          "subtitle": "Behind The Kitchen Door",
+          "url": "Behind%20The%20Kitchen%20Door.json",
+          "secondaryUrl": "Behind%20The%20Kitchen%20Door"
+        },
+        {
+          "subtitle": "Consumer",
+          "url": "Consumer.json",
+          "secondaryUrl": "Consumer"
+        },
+        {
+          "subtitle": "Politics",
+          "url": "Politics.json",
+          "secondaryUrl": "Politics"
+        }
+      ]
+    },
+    {
+      "screen": "traffic",
+      "title": "Traffic",
+      "AD_TAG": "/15466288/TEST/App/Newsreader",
+      "map": {
+        "layer": "wsisdk_LayerTrafficFlowAndRadar",
+        "overlays": [
+          "wsisdk_OverlayTrafficIncidents"
+        ],
+        "legend_name": "legend_traffic.png",
+        "legend_transparency": 90
+      }
+    },
+    {
+      "screen": "weather",
+      "title": "Weather"
+    },
+    {
+      "screen": "applink",
+      "title": "Houston Life",
+      "link": {
+        "app": "HoustonLife://",
+        "app_name": "Houston Life",
+        "ios": "itms-apps://itunes.apple.com/by/app/houston-life/id1150176156",
+        "android": ""
+      }
+    },
+    {
+      "screen": "sports",
+      "title": "Sports",
+      "AD_TAG": "/15466288/TEST/App/Newsreader",
+      "section": [
+        {
+          "subtitle": "Sports Headlines",
+          "url": "Sports.json",
+          "secondaryUrl": "Sports"
+        },
+        {
+          "subtitle": "Cowboys",
+          "url": "Cowboys.json",
+          "AD_TAG": "/15466288/TEST/App/Newsreader/News",
+          "secondaryUrl": "Cowboys"
+        },
+        {
+          "subtitle": "Texans",
+          "url": "Texans.json",
+          "secondaryUrl": "Texans"
+        },
+        {
+          "subtitle": "Spurs",
+          "url": "Spurs.json",
+          "secondaryUrl": "Spurs"
+        },
+        {
+          "subtitle": "Instant Replay",
+          "url": "Instant%20Replay.json",
+          "secondaryUrl": "Instant%20Replay"
+        }
+      ]
+    },
+    {
+      "screen": "Entertainment",
+      "title": "Entertainment",
+      "AD_TAG": "/15466288/TEST/App/Newsreader",
+      "section": [
+        {
+          "subtitle": "Entertainment Headlines",
+          "url": "Entertainment.json",
+          "secondaryUrl": "Entertainment"
+        }
+      ]
+    },
+    {
+      "screen": "Lifestyle",
+      "title": "Lifestyle",
+      "AD_TAG": "/15466288/TEST/App/Newsreader",
+      "section": [
+        {
+          "subtitle": "Lifestyle Headlines",
+          "url": "Lifestyle.json",
+          "secondaryUrl": "Lifestyle"
+        },
+        {
+          "subtitle": "Health",
+          "url": "Health.json",
+          "secondaryUrl": "Health"
+        },
+        {
+          "subtitle": "Military",
+          "url": "Military.json",
+          "secondaryUrl": "Military"
+        }
+      ]
+    },
+    {
+      "screen": "Marketplace",
+      "title": "Marketplace",
+      "AD_TAG": "/15466288/TEST/App/Newsreader",
+      "section": [
+        {
+          "subtitle": "Marketplace Headlines",
+          "url": "Marketplace.json",
+          "secondaryUrl": "Marketplace"
+        },
+        {
+          "subtitle": "Automotive",
+          "url": "Automotive.json",
+          "secondaryUrl": "Automotive"
+        },
+        {
+          "screen": "webview",
+          "title": "HEB Kitchen",
+          "AD_TAG": "/15466288/TEST/App/Newsreader",
+          "url": "http://uat-ksat.endplay.com/content/pns/ksat/marketplace/heb-backyard-kitchen.html?layout=simple"
+        },
+        {
+          "screen": "webview",
+          "title": "HEB Kitchen2",
+          "AD_TAG": "/15466288/TEST/App/Newsreader",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "screen": "settings",
+      "title": "Settings",
+      "AD_TAG": "/15466288/TEST/App/Newsreader"
+    }
+  ],
+  "HOMEPAGE_URL": "Top%20Stories.json",
+  "HOMEPAGE_SECONDARYURL": "Top%20Stories",
+  "HOMEPAGE_SCREEN": "topStories",
+  "BREAKINGNEWS_URL": "Breaking%20News.json",
+  "LIVESTREAM_URL": "Livestream.json",
+  "ARTICLE_DATA_URL": "article/%s",
+  "GOOGLE_ANALYTICS_TRACKING_ID": "UA-17700582-11",
+  "AD_TAG": "/15466288/TEST/App/Newsreader",
+  "LIVESTREAM_AD_TAG" : "/15466288/WKMG/Livestream",
+  "ANVATO_PLAYER_URL": "http://content.uplynk.com/channel/aeed2b5b97494129ad22b446d6aa0ce4.m3u8?ad=graham_test",
+  "VAR_PLAYSTORE_URL": "https://play.google.com/store/apps/details?id=",
+  "STATION": "KSAT",
+  "QUANTCAST_KEY": "18kcfxiuxoeiny00-jhumrbwspt3qrqs2",
+  "DATA_REFRESH_INTERVAL": 600,
+  "DATA_CACHE_INTERVAL": 24,
+  "MINIMUM_USAGE_FOR_RATING": 6,
+  "MIN_VERSION": "0.0",
+  "IOS_FORCE_VERSION": "0.0",
+  "ANDROID_FORCE_VERSION": "0.0",
+  "ITUNES_URL": "https://itunes.apple.com/in/app/ksat.com-ksat-12-news/id426129542",
+  "TWITTER_HANDLE": "KSATnews",
+  "SHOW_INTERSTITIAL_AD": true,
+  "TERMS_OF_USE": "http://www.ksat.com/station/termsofuse",
+  "PRIVACY_POLICY": "http://www.ksat.com/station/privacy",
+  "REMOVE_CACHE_DATA": true,
+  "PUSH_ALERTS": [
+    {
+      "text": "Breaking News",
+      "channel": "BreakingNews"
+    },
+    {
+      "text": "Sports",
+      "channel": "Sports"
+    },
+    {
+      "text": "Entertainment",
+      "channel": "Entertainment"
+    },
+    {
+      "text": "Traffic",
+      "channel": "Traffic"
+    },
+    {
+      "text": "Weather",
+      "channel": "Weather"
+    },
+    {
+      "text": "Programming",
+      "channel": "Programming"
+    }
+  ],
+  "QUICK_ACTIONS": [
+    {
+      "screen": "topStories",
+      "title": "Top Stories"
+    },
+    {
+      "screen": "traffic",
+      "title": "Traffic"
+    },
+    {
+      "screen": "weather",
+      "title": "Weather"
+    },
+    {
+      "screen": "sports",
+      "title": "Sports Headlines"
+    }
+  ],
+  "SERVICES": {
+    "INTELLICAST": {
+      "BASE_URL": "http://data-services.wsi.com/%s/%s/",
+      "VERSION": "200904-01",
+      "SECRET_KEY": "213605834",
+      "DEFAULT_LOCATION": [
+        29.422,
+        -98.497
+      ]
+    },
+    "NOTIFICATION": {
+      "BASE_URL": "https://s3.amazonaws.com/notifications-api/weather/"
+    },
+    "WX_ICONS": {
+      "BASE_URL": "http://media.ksat.com/weather/icons/60_clear/wx_%s.png"
+    },
+    "MAX_MAP": {
+      "MEMBER_ID": "1175",
+      "MAP_ID": "0002",
+      "TEMPLATE_ID": "0003",
+      "SDK_KEY": "3C3388B3-D633-4D42-A136-C2B6DF33BA18"
+    },
+    "OUTBRAIN": {
+      "PARTNER_KEY": "CLICK2APAB7FE686CJLA026P6",
+      "WIDGET_ID": "SDK_1",
+      "TEST_MODE_ON": true
+    },
+    "REVEAL": {
+      "API_KEY": "5AAB12B6B65B0E51E363AB4CE83D829BCD1A028A81B28CDFE2496D",
+      "API_ENDPOINT_BASE" : "https://mapi.grahamdigital.com",
+      "BEACONS": {
+        "97faaca4-d7f1-416d-a5a4-e922dc6edb29.1.1" : "Green",
+        "97faaca4-d7f1-416d-a5a4-e922dc6edb29.1.6" : "White",
+        "97faaca4-d7f1-416d-a5a4-e922dc6edb29.1.12" : "Blue",
+        "97faaca4-d7f1-416d-a5a4-e922dc6edb29.1.14" : "Red",
+        "97faaca4-d7f1-416d-a5a4-e922dc6edb29.1.17" : "Yellow"
+      }
+    },
+    "COMSCORE": {
+      "C2_VALUE": "7507054",
+      "PUBLISHER_SECRET_CODE": "7a4fa75513b461050f0c03910aaf27e2"
+    },
+    "CARNIVAL": {
+      "APP_KEY": "ccd530f5f59483d8883bfb4a55917b15adcef96b"
+    },
+    "KALTURA_PLAYKIT": {
+      "URL": "https://cdnapisec.kaltura.com/p/1636891/sp/%d/playManifest/entryId/%s/format/applehttp/protocol/https/a.m3u8",
+      "PARTNER_ID": 1636891,
+      "PLAYER_ID": 25345621,
+      "AD_URL": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=%s&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]",
+      "AD_BASE": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/%s%s/%s&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]",
+      "AD_NETWORK": "15466288",
+      "AD_PREFIX": "/TEST/App/Newsreader"
+    },
+    "AWS_DATA": {
+      "DYNAMODB_ARTICLES_TABLE": "ksatuat_appfeeds_articles",
+      "DYNAMODB_SECTIONS_TABLE": "ksatuat_appfeeds_section",
+      "REGION": "us-east-1",
+      "POOL_ID": "us-east-1:cdfaf381-3f15-490f-b7fa-b9a4d904484c"
+    }
+  },
+  "PUSH_ALERTS_CATEGORIES": [
+    {
+      "text": "Breaking News",
+      "channel": "BreakingNews"
+    },
+    {
+      "text": "Sports",
+      "channel": "Sports"
+    },
+    {
+      "text": "Entertainment",
+      "channel": "Entertainment"
+    },
+    {
+      "text": "Traffic",
+      "channel": "Traffic"
+    },
+    {
+      "text": "Weather",
+      "channel": "Weather"
+    },
+    {
+      "text": "Programming",
+      "channel": "Programming"
+    }
+  ]
+}
